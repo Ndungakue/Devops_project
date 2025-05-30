@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        DOCKER_HUB_REPO = 'your-dockerhub-username/portfolio'
+        DOCKER_HUB_REPO = 'ndungakue/portfolio'  // Replace with your Docker Hub username
         DOCKER_HUB_CRED = 'dockerhub-credentials'
     }
     
